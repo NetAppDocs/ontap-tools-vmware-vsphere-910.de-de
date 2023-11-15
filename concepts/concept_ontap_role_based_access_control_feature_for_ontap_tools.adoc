@@ -58,9 +58,6 @@ Um neue Benutzerrollen zu erstellen, müssen Sie sich als Administrator auf Stor
 link:../configure/task_configure_user_role_and_privileges.html["Konfigurieren von Benutzerrollen und -Berechtigungen"]
 
 * RBAC Benutzer Creator für ONTAP Tool (bei Verwendung von ONTAP 9.6 oder früher)
-+
-https://community.netapp.com/t5/Virtualization-Articles-and-Resources/RBAC-User-Creator-tool-for-VSC-VASA-Provider-and-Storage-Replication-Adapter-7-0/ta-p/133203["RBAC Benutzer Creator Tool für VSC, VASA Provider und Storage Replication Adapter 7.0 für VMware vSphere"]
-
 
 
 Jeder ONTAP-Rolle ist ein zugehöriger Benutzername und ein Passwort zugeordnet, was die Anmeldeinformationen der Rolle darstellt. Wenn Sie sich nicht mit diesen Anmeldedaten anmelden, können Sie nicht auf die Speichervorgänge zugreifen, die der Rolle zugeordnet sind.

@@ -30,9 +30,6 @@ NOTE: Sie können eine der folgenden Funktionen verwenden, um diese Rollen zu er
 link:../configure/task_configure_user_role_and_privileges.html["Konfigurieren von Benutzerrollen und -Berechtigungen"]
 
 ** RBAC Benutzer Creator für ONTAP Tool (bei Verwendung von ONTAP 9.6 oder früher)
-+
-https://community.netapp.com/t5/Virtualization-Articles-and-Resources/RBAC-User-Creator-tool-for-VSC-VASA-Provider-and-Storage-Replication-Adapter-7-0/ta-p/133203/t5/Virtualization-Articles-and-Resources/How-to-use-the-RBAC-User-Creator-for-Data-ONTAP/ta-p/86601["RBAC Benutzer Creator Tool für VSC, VASA Provider und Storage Replication Adapter 7.0 für VMware vSphere"]
-
 
 
 * Erstellen Sie Benutzer mit der zugewiesenen Rolle und dem entsprechenden Anwendungssatz mithilfe von ONTAP
