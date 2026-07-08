@@ -381,7 +381,6 @@
   <block id="211c9db57cb6ce5c2e16c1ff37eaa820" category="doc">Analyse der Performance-Daten mit dem herkömmlichen Dashboard</block>
   <block id="096926a9260db65d51c453dd6fe63a06" category="paragraph">Wählen Sie im Dialogfeld Storage-I/O-Steuerung konfigurieren die Option *Storage-I/O-Steuerung aktivieren und Statistiken sammeln* oder *Storage-I/O-Steuerung deaktivieren, aber Statistiksammlung aktivieren* aus. Sie können Storage I/O Control nur aktivieren, wenn Sie über die Enterprise Plus Lizenz von VMware verfügen.</block>
   <block id="5900a4191170b6191797e473524d5bfd" category="inline-link">Dokumentation zu VMware vSphere: Storage I/O Control ermöglichen</block>
-  <block id="b7a328ea0603bc67c4f6c59226da970a" category="paragraph"><block ref="b7a328ea0603bc67c4f6c59226da970a" category="inline-link-rx"></block></block>
   <block id="4a7619cde2c717f99a4aa51b8332f2e5" category="paragraph">Im herkömmlichen Dashboard werden Kennzahlen zu IOPS, Kapazitätsauslastung, Latenz und engagierte Kapazität angezeigt, die vom vCenter Server abgerufen werden. ONTAP bietet im herkömmlichen Dashboard Metriken zur Speicherersparnis für das Aggregat. Sie können die Speicherplatzeinsparung für ein bestimmtes Aggregat anzeigen. Mit diesen Performance-Parametern können Sie Performance-Engpässe in der virtuellen Umgebung identifizieren und Korrekturmaßnahmen ergreifen, um die Probleme zu beheben.</block>
   <block id="77fc87b2d4510a0bda82e14b45856ab6" category="paragraph">Die herkömmliche Konsole der ONTAP-Tools ermöglicht die Anzeige von NFS-Datenspeichern oder VMFS-Datastores. Sie können auf einen Datastore klicken, um zur Detailansicht des Datastores zu navigieren, die von der vCenter Server-Instanz bereitgestellt wird, um Probleme mit den Datastores in Ihrem vCenter Server anzuzeigen und zu beheben.</block>
   <block id="63a1762e79217ec6ff7ab30bd38f5de9" category="list-text">Klicken Sie auf der Startseite des vSphere Clients auf *ONTAP Tools für VMware vSphere*.</block>
@@ -639,7 +638,6 @@
   <block id="56d43ad1a280ada5e16fd2960ae44b32" category="list-text">SRM</block>
   <block id="03b870ced8b149ca765fa1ffe2f8b770" category="paragraph">Dokumentation zur Installation von SRM befindet sich auf der VMware Site.</block>
   <block id="4617dd5a7193927c5552182931541c9c" category="inline-link">VMware Site Recovery Manager - Dokumentation</block>
-  <block id="2b27cdd9529ad91885c6c019ee8329ee" category="paragraph"><block ref="2b27cdd9529ad91885c6c019ee8329ee" category="inline-link-rx"></block></block>
   <block id="406292f3c5b20715e348f48fa5e6d6e3" category="list-text">SRA</block>
   <block id="5964a20b29586f71f419711aae6ae487" category="paragraph">Der Adapter wird entweder auf SRM installiert.</block>
   <block id="39d642e40fbcd108eb0ab15715ee349d" category="list-text">Vergewissern Sie sich, dass die primären ESXi-Hosts mit den LUNs im primären Speichersystem am geschützten Standort verbunden sind.</block>
@@ -774,7 +772,6 @@
   <block id="193f5724aa76560510625d6930654372" category="paragraph">Die VMware HA Funktion überwacht Virtual Machines und erkennt so Betriebssystemausfälle und Hardwareausfälle. Wenn ein Fehler erkannt wird, startet die VMware HA-Funktion die virtuellen Maschinen auf den anderen physischen Servern im Ressourcenpool neu. Wenn ein Serverfehler erkannt wird, ist keine manuelle Intervention erforderlich.</block>
   <block id="fddbfde8381a8cd2ead18c94350d2a14" category="paragraph">Das Verfahren zur Konfiguration von VMware HA hängt von der Version des vCenter Servers ab. Sie können beispielsweise den folgenden Referenzlink verwenden und die erforderliche vCenter Server-Version auswählen, um die Schritte zum Konfigurieren von VMware HA anzuzeigen.</block>
   <block id="1d5795cd94cc0753911dd6bc7e4121e0" category="inline-link">VMware vSphere Dokumentation: Erstellen und Verwenden von vSphere HA-Clustern</block>
-  <block id="57913afe7758e6ac629330a6211986c2" category="paragraph"><block ref="57913afe7758e6ac629330a6211986c2" category="inline-link-rx"></block></block>
   <block id="ef9fe79e06af531fbe18dd870cdb7dc7" category="summary">Sie müssen die ONTAP rollenbasierte Zugriffssteuerung \(RBAC\) auf dem Speichersystem konfigurieren, wenn Sie die rollenbasierte Zugriffssteuerung mit ONTAP®-Tools für VMware vSphere verwenden möchten. Über die ONTAP Funktion zur rollenbasierten Zugriffssteuerung können Sie ein oder mehrere benutzerdefinierte Benutzerkonten mit begrenzten Zugriffsberechtigungen erstellen.</block>
   <block id="6b3c5cff95a01171d231d2c77b8852ff" category="doc">So konfigurieren Sie die rollenbasierte ONTAP-Zugriffssteuerung für ONTAP Tools für VMware vSphere</block>
   <block id="677ff51eca7b8b3b89d23a32fc0b88c9" category="paragraph">Sie müssen die rollenbasierte Zugriffssteuerung (RBAC) von ONTAP auf dem Storage-System konfigurieren, wenn Sie eine rollenbasierte Zugriffssteuerung mit ONTAP Tools für VMware vSphere verwenden möchten. Über die ONTAP Funktion zur rollenbasierten Zugriffssteuerung können Sie ein oder mehrere benutzerdefinierte Benutzerkonten mit begrenzten Zugriffsberechtigungen erstellen.</block>
@@ -897,7 +894,6 @@
   <block id="95954e13c3fd02d60d2176c6788c994a" category="paragraph">Ihr System muss die CPU-Anforderungen, die Grenzwerte für virtuelle Maschinen sowie die Lizenzierungsanforderungen für die Konfiguration von vSphere FT für Ihre vCenter Server-Instanz erfüllen.</block>
   <block id="66c5b34575bb610e09f6281aecda93e6" category="paragraph">Das Verfahren zur HA-Konfiguration hängt von der Version des vCenter Servers ab. Sie können beispielsweise den folgenden Referenzlink verwenden und die erforderliche vCenter Server-Version auswählen, um die Schritte zum Konfigurieren von HA anzuzeigen.</block>
   <block id="9c506678975809e892cfdd7c14758cae" category="inline-link">VMware vSphere Dokumentation: Fehlertoleranz, Beschränkungen und Lizenzierung</block>
-  <block id="20422418e9f27ff480459f880734075a" category="paragraph"><block ref="20422418e9f27ff480459f880734075a" category="inline-link-rx"></block></block>
   <block id="93cf0ce401485ea512d0cebd7aa9a5b6" category="summary">VCenter Server bietet eine rollenbasierte Zugriffssteuerung \(RBAC\), mit der Sie den Zugriff auf vSphere Objekte steuern können. In ONTAP Tools für VMware vSphere arbeitet die vCenter Server RBAC mit der ONTAP RBAC. So können Sie ermitteln, welche VSC-Aufgaben ein bestimmter Benutzer auf Objekten auf einem bestimmten Storage-System ausführen kann.</block>
   <block id="a2b6bdbaa7f478b53edca02553c0dd6b" category="doc">Übersicht über die rollenbasierte Zugriffssteuerung in den ONTAP Tools</block>
   <block id="f737dbfa4bc20b26d0a2b6647fa12dbb" category="paragraph">VCenter Server bietet rollenbasierte Zugriffssteuerung (RBAC), über die Sie den Zugriff auf vSphere Objekte kontrollieren können. In ONTAP Tools für VMware vSphere arbeitet die vCenter Server RBAC mit der ONTAP RBAC. So können Sie ermitteln, welche VSC-Aufgaben ein bestimmter Benutzer auf Objekten auf einem bestimmten Storage-System ausführen kann.</block>
@@ -1294,10 +1290,8 @@
   <block id="78b9c306d2b9e90dc4612872a3412b17" category="image-alt">Bereitstellung neuer Benutzer</block>
   <block id="e263045e30d0d45525a6c848d8439da4" category="inline-link-macro">Implementieren oder Aktualisieren von ONTAP Tools für VMware vSphere</block>
   <block id="5554fa88014dbf4d13c04c07b516f822" category="paragraph"><block ref="5554fa88014dbf4d13c04c07b516f822" category="inline-link-macro-rx"></block></block>
-  <block id="f941583eff3ed87da8d807407294540f" category="paragraph"><block ref="f941583eff3ed87da8d807407294540f" category="inline-link-macro-rx"></block></block>
   <block id="b4985c4f7663e3e799236852df85319e" category="inline-link-macro">ESXi Hostwerte werden mithilfe der ONTAP Tools für VMware vSphere gesetzt</block>
   <block id="fceaf78f3c73355fe250db66743fa112" category="list-text"><block ref="fceaf78f3c73355fe250db66743fa112" category="inline-link-macro-rx"></block></block>
-  <block id="52b95ac1087cc8a2310e7b2234240c33" category="list-text"><block ref="52b95ac1087cc8a2310e7b2234240c33" category="inline-link-macro-rx"></block></block>
   <block id="b63375020fe42de81afebfc9fc66baae" category="summary">Sie sollten vor der Implementierung von ONTAP Tools die Implementierungsanforderungen kennen und dann die gewünschten Aufgaben festlegen. Sie können das Implementierungsmodell für die Implementierung der ONTAP-Tools anhand Ihrer Aufgaben auswählen</block>
   <block id="578d9149fa04c3d4f2229ad419fbfec3" category="doc">Anforderungen für die Implementierung der ONTAP Tools</block>
   <block id="42bc4627d63b98bd97ba7ee44a76918d" category="summary">Vor der Bereitstellung der ONTAP Tools für VMware vSphere sollten Sie mit den Speicherplatzanforderungen für das Deployment-Paket und einigen grundlegenden Anforderungen an das Host-System vertraut sein.</block>
@@ -1415,9 +1409,7 @@
   <block id="3e44226773fd5e723731c1d4266a9cac" category="paragraph">Sie müssen die FlexClone Lizenz aktivieren, um Test-Failover-Vorgänge für SRA durchzuführen.</block>
   <block id="a919e368cdc2a31db9bf251c27d9df05" category="paragraph">Um die IOPS für einen Datastore anzuzeigen, müssen Sie entweder die Storage-I/O-Steuerung aktivieren oder das Kontrollkästchen „Storage-I/O-Statistiksammlung deaktivieren“ in der Konfiguration des Storage-I/O-Steuersystems deaktivieren. Sie können die Storage-I/O-Steuerung nur aktivieren, wenn Sie über die Enterprise Plus-Lizenz von VMware verfügen.</block>
   <block id="334d1eb45fc0c2dc8df94b8b513b8df4" category="inline-link">Fehlerbehebung bei der Storage-I/O-Steuerung</block>
-  <block id="1a5f6041f129f43810f85de306ad33b2" category="list-text"><block ref="1a5f6041f129f43810f85de306ad33b2" category="inline-link-rx"></block></block>
   <block id="6cb4e4fceb86a9c3efe7f9d4e5d29473" category="inline-link">Anforderungen an die Storage-I/O-Kontrolle</block>
-  <block id="fcafb33f3f1e5ad308452fccb673af13" category="list-text"><block ref="fcafb33f3f1e5ad308452fccb673af13" category="inline-link-rx"></block></block>
   <block id="6678e6ff7d72945da8486c6fb5146984" category="summary">Sie sollten Storage-Systeme zu ONTAP Tools hinzufügen und bei Bedarf über die VSC Schnittstelle Standard-Anmeldedaten festlegen.</block>
   <block id="e739dd2faba4528a9c24fcd814c5a416" category="doc">Überblick über Storage-Systeme für ONTAP Tools</block>
   <block id="80bd799c519d5539d28e60537d3291ce" category="paragraph">ONTAP Tools für VMware vSphere bietet einen einzigen Mechanismus, um Storage-Systeme zu erkennen und die Storage-Anmeldedaten festzulegen. Sie stellen die ONTAP-Berechtigungen bereit, die erforderlich sind, damit Benutzer von Virtual Storage Console (VSC) mithilfe der Storage-Systeme Aufgaben durchführen können.</block>
@@ -1975,4 +1967,12 @@
   <block id="5e9e6efcbe65718c4f8940b263317a69" category="paragraph"><block ref="7f4891afcb11aecd70e2cfd4c1573829" prefix="" category="inline-code"></block></block>
   <block id="5547d8d27b62c49e4555e1f79122a342" category="paragraph"><block ref="9e427bf42ac054021120757914ef1809" prefix="" category="inline-code"></block></block>
   <block id="b8ace162f3094fd5ac1138ced112d7a7" category="list-text">Starten Sie den VMware vSphere Client-Dienst:<block ref="bfbe7f4b006f6fcfc7bb66e075309067" prefix=" " category="inline-code"></block></block>
+  <block id="1bd8d6ba09152f99a95ef603229c8ab1" category="paragraph"><block ref="1bd8d6ba09152f99a95ef603229c8ab1" category="inline-link-rx"></block></block>
+  <block id="a762e0db55d4d5808cdfea7fab5aee85" category="paragraph"><block ref="a762e0db55d4d5808cdfea7fab5aee85" category="inline-link-rx"></block></block>
+  <block id="030c5a37181650fc00935fe9a88401c8" category="paragraph"><block ref="030c5a37181650fc00935fe9a88401c8" category="inline-link-rx"></block></block>
+  <block id="e6de46eb127ec26f1447e73128975188" category="list-text"><block ref="e6de46eb127ec26f1447e73128975188" category="inline-link-rx"></block></block>
+  <block id="d386b179f17143db20cfa12f52a7fd93" category="list-text"><block ref="d386b179f17143db20cfa12f52a7fd93" category="inline-link-rx"></block></block>
+  <block id="02d0a0958e73fd8f6b196e0763aac98c" category="paragraph"><block ref="02d0a0958e73fd8f6b196e0763aac98c" category="inline-link-macro-rx"></block></block>
+  <block id="a563fcea2bda3cf193363205e6468260" category="paragraph"><block ref="a563fcea2bda3cf193363205e6468260" category="inline-link-rx"></block></block>
+  <block id="3904b96e16e0546b33dbcc3f9cc072d0" category="paragraph"><block ref="3904b96e16e0546b33dbcc3f9cc072d0" category="inline-link-rx"></block></block>
 </blocks>
